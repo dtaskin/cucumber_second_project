@@ -1,5 +1,5 @@
 # cucumber_second_project
-In this project, I tested smartbear website functionalities using maven as project build tool, Java as the language, JUnit for its assertions. 
+In this project, I tested smartbear website functionalities using maven as project build tool, Java as the language,Selenium WebDriverManager as UI automation tool and JUnit for its assertions. 
 I also used BDD framework because I believe this project will perform best with cucumber. 
 You can see maven reports about my smoke and regression suites on my target folder. 
 I use a page object model design pattern and maintain a separate class for each webpage. Each page class stores the members, locators, and associated methods for each webpage. This helps with refactoring.
