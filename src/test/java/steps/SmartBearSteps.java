@@ -158,7 +158,7 @@ public class SmartBearSteps {
     @Then("validate all orders are deleted from the {string}")
     public void validateAllOrdersAreDeletedFromThe(String lists) {
 //        Assert.assertNotNull(lists);
-        Assert.assertTrue(webOrdersPage.allRows.size() == 0);
+        Assert.assertEquals(0, webOrdersPage.allRows.size());
     }
 
     @And("validate user sees {string} Message")

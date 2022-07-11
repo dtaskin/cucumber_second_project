@@ -54,7 +54,7 @@ Feature: SmartBear Functionalities
     And user clicks on "View all orders" menu item
     Then user should see their order displayed in the "List of All Orders" table
     And validate all information entered displayed correct with the order
-      |  | Deniz taskin | FamilyAlbum | 2 | 07/07/2022 | 1193 main ave | clifton | nj | 07011 | Visa | 1111111111111111 | 08/12/25 |
+      |  | Deniz taskin | FamilyAlbum | 2 | 07/11/2022 | 1193 main ave | clifton | nj | 07011 | Visa | 1234567891232345 | 08/25 |
 
   @Regression
   Scenario: Validate "Delete Selected" button

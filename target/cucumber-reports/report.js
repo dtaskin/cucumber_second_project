@@ -355,14 +355,14 @@ formatter.step({
         "Deniz taskin",
         "FamilyAlbum",
         "2",
-        "07/07/2022",
+        "07/11/2022",
         "1193 main ave",
         "clifton",
         "nj",
         "07011",
         "Visa",
-        "1111111111111111",
-        "08/12/25"
+        "1234567891232345",
+        "08/25"
       ]
     }
   ],
@@ -372,10 +372,8 @@ formatter.match({
   "location": "SmartBearSteps.validateAllInformationEnteredDisplayedCorrectWithTheOrder(DataTable)"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c07/[07]/2022\u003e but was:\u003c07/[11]/2022\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat steps.SmartBearSteps.validateAllInformationEnteredDisplayedCorrectWithTheOrder(SmartBearSteps.java:154)\n\tat ✽.validate all information entered displayed correct with the order(src/test/resources/features/smartbear.feature:56)\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png");
 formatter.after({
   "status": "passed"
 });
